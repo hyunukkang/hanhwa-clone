@@ -1,0 +1,77 @@
+@charset "utf-8";
+
+@media (max-width: 1127px) {
+    header {
+        padding: 0 20px;
+    }
+    header .btn-toggle {
+        position: absolute;
+        right: 11px;
+        top: 0px;
+    }
+    header .gnb {
+        display: none;
+    }
+    header .search {
+        display: none;
+    }
+}    
+@media (max-width: 768px) {
+    /* common */
+    /* 줄바꿈 발생시키기 */
+    .mo-br {
+        display: block;
+    }
+    .section-title-mo {
+        width: 80%;
+    }
+    /* header */
+    header {}
+    /* vision */
+    section.vision {}
+    /* about */
+    section.about {}
+    section.about .thumb-item {
+        width: 100%;
+        text-align: center;
+    }
+    .thumb-item .thumb-desc {
+        padding: 20px 0;
+    }
+
+    /* innovation */
+    section.innovation {}
+    section.innovation dd {
+        height: auto;
+    }
+    section.innovation dd P {
+        display: block;
+        padding: 1rem 0;
+    }
+    /* challenge */
+    section.challenge {}
+    section.challenge .outer-list > li {
+        padding: 0 70px 50px;
+    }
+    section.challenge .inner-list li span {
+        display: block
+    }
+    /* sns */
+    section.sns {}
+    section.sns .post .post-item {
+        width: 100%;
+    }
+    section.sns .post .post-item .post-desc {
+        padding: 15px 15px 18px
+    }
+    /* footer */
+    footer {
+        text-align: center;
+        height: auto;
+        padding-bottom: 15px;
+    }
+    footer address {
+        display: block;
+        margin: 10px 20px;
+    }
+}
