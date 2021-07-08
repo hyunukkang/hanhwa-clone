@@ -106,6 +106,9 @@ h2.section-title {
 h2.section-title img {
     margin-bottom: 24px;
 }
+h2.section-title span {
+    display: block;
+}
 /* vision */
 section.vision {
     height: 100vh;
